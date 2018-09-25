@@ -75,7 +75,7 @@ class SearchResultContainer extends Component {
     let startDate = this.state.startDate;
     let endDate = this.state.endDate;
     if (startDate.length < 4 || endDate.length < 4) {
-        alert("please check your dates: year needs to be 4 digits long")
+        alert("year needs to be 4 digits long")
     }
     else return true
   }

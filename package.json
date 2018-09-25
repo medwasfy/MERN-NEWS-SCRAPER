@@ -1,5 +1,5 @@
 {
-  "name": "nyt-react-scrubber",
+  "name": "mern-news-scrubber",
   "version": "0.1.0",
   "private": true,
   "dependencies": {

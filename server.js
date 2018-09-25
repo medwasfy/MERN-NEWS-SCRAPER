@@ -8,7 +8,7 @@ var routes = require("./routes/routes");
 var apiController = require('./controllers/apiController')
 
 // Default port and middleware
-var PORT = process.env.PORT || 3000;
+var PORT = process.env.PORT || 3001;
 mongoose.Promise = Promise;
 var app = express();
 app.use(bodyParser.urlencoded({ extended: true }));
