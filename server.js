@@ -15,7 +15,7 @@ app.use(bodyParser.urlencoded({ extended: true }));
 app.use(bodyParser.json());
 app.use(express.static(__dirname + "/build"));
 
-var db = PROD_MONGODB || "mongodb://medwasfy:medwasfy1@ds113703.mlab.com:13703/mern-news-scraper";
+var db = process.env.PROD_MONGODB || "mongodb://medwasfy:medwasfy1@ds113703.mlab.com:13703/mern-news-scraper";
 
 // Connect mongoose to database
 mongoose.connect(db, function(error) {
