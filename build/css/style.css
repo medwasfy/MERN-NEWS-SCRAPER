@@ -1,0 +1,43 @@
+
+body {
+	background-color: white;
+	background-image: url("../images/newsbg.jpg");
+	background-position: center center;
+	background-size: cover;
+	background-attachment:fixed;
+	opacity: .9;
+	margin-left: 20px;
+
+}
+
+.jumbotron {
+	background: #596068;
+	height: 280px;
+	width: 100%;
+	color: white;
+	background-position: center center;
+	background-size: cover;
+	margin: auto;
+}
+
+.form-text-color {
+	color: white;
+	background-color: #596068;
+	font-size: 1.2em;
+	margin-left: 20px;
+	margin-top: 10px;
+}
+
+#empty-db-alert {
+	display: none
+}
+
+.card {
+	margin: 1rem;
+	padding: 1rem;
+	background-color: white;
+}
+
+.btn {
+	margin: 1rem;
+}

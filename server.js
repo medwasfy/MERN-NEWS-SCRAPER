@@ -1,6 +1,6 @@
 
 // Calling dependecies
-var dotenv = require('dotenv').config();
+require('dotenv').config();
 var express = require("express");
 var mongoose = require("mongoose");
 var bodyParser = require("body-parser");
@@ -15,7 +15,7 @@ app.use(bodyParser.urlencoded({ extended: true }));
 app.use(bodyParser.json());
 app.use(express.static(__dirname + "/build"));
 
-var db = process.env.MONGODB_URI || "mongodb://medwasfy:medwasfy1@ds113703.mlab.com:13703/mern-news-scraper";
+var db = "mongodb://medwasfy:medwasfy1@ds113703.mlab.com:13703/mern-news-scraper";
 
 // Connect mongoose to database
 mongoose.connect(db, function(error) {
